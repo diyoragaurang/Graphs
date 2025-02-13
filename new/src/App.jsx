@@ -3,6 +3,7 @@ import "./App.css";
 import SimpleLineChart from "./charts/SimpleLineChart";
 import TinyLineChart from "./charts/TinyLineChart";
 import DashedLineChart from "./charts/DashedLineChart"
+import CustomizedDotLineChart from "./charts/CustomizedDotLineChart"
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <SimpleLineChart />
         <TinyLineChart />
         <DashedLineChart/>
+        <CustomizedDotLineChart/>
       </div>
     </>
   );
